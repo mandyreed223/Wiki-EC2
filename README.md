@@ -4,7 +4,7 @@ In this project I created a user data script that automatically downloads, extra
 
 ## **Requirements**
 
-- Use Amazon EC2
+- Use Amazon EC2 (script was tested on an Amazon Linux image)
 - Create user script
    - Install Apache or NGINX
    - Download and extract DocuWiki
@@ -17,7 +17,7 @@ In this project I created a user data script that automatically downloads, extra
   
 ## **How to**
 
-1. Launch EC2 instance (I used Amazon Linux 2023 with t.3 micro)
+1. Launch EC2 instance (Amazon Linux 2023 with t.3 micro)
 2. Enter user data script in *User data* field under advance details
 3. Launch instance and copy public IP address to test site functionality
 
