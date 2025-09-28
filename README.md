@@ -20,3 +20,19 @@ In this project I created a user data script that automatically downloads, extra
 1. Launch EC2 instance (I used Amazon Linux 2023 with t.3 micro)
 2. Enter user data script in *User data* field under advance details
 3. Launch instance and copy public IP address to test site functionality
+
+## **Goal**
+
+The goal of this project is to practice hands-free infrastructure automation by deploying a fully functional wiki system (DokuWiki) on AWS. Instead of setting up servers manually, the entire process is automated using an EC2 instance, Linux configuration, and a user data script.
+
+By the end of the deployment:
+
+- The server is launched and configured automatically
+
+- DokuWiki is installed and ready to use on first boot
+
+- Essential wiki pages are pre-created through shell scripting
+
+- No manual setup is required, showcasing the power of automation and Infrastructure-as-Code principles
+
+This project simulates the type of repeatable, automated provisioning used in real-world cloud engineering and DevOps pipelines.
